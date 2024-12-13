@@ -1,6 +1,12 @@
 version: '3.8'
 
 services:
+  node_subscription:
+    build: ./node_subscription
+    ports:
+      - "4000:4000"
+    depends_on:
+      - db
   backend:
     build: ./backend
     ports:

@@ -54,3 +54,7 @@ docker-compose.override.yml
 # Environment Variables
 .env
 /backend/flask_monitoringdashboard.db
+/node_subscription/node_modules/
+node_modules/
+dist/
+/node_subscription/dist/
