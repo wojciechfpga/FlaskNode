@@ -1,0 +1,9 @@
+flask
+flask-sqlalchemy
+psycopg2-binary
+flask-migrate
+pyjwt
+flask-swagger-ui
+flask_monitoringdashboard
+pymongo
+flask-cors
