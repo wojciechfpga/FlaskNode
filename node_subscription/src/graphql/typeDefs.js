@@ -1,6 +1,6 @@
 const { gql } = require('apollo-server');
 
-const reservationSchema = gql`
+const typeDefs = gql`
   type Reservation {
     id: ID!
     start_time: String!
@@ -8,7 +8,7 @@ const reservationSchema = gql`
   }
 
   type Query {
-    reservations: [Reservation!]
+    reservations: [Reservation!]!
   }
 
   type Subscription {
@@ -16,4 +16,4 @@ const reservationSchema = gql`
   }
 `;
 
-module.exports = reservationSchema;
+module.exports = typeDefs;

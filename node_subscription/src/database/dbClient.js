@@ -9,6 +9,5 @@ const dbClient = new Client({
 });
 
 dbClient.connect();
-dbClient.query('LISTEN new_reservation');
 
 module.exports = dbClient;
